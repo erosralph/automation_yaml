@@ -1,0 +1,15 @@
+--index-url https://artifactory.factset.com/artifactory/api/pypi/python/simple
+fds.cmt.cloud_utils
+fds.ce.attic
+fds.ce.bamboo
+fds.ce.wrappers
+fds.ce.moka-lib
+jupyter
+jupyterlab
+pandas
+requests
+papermill
+requests_negotiate_sspi; sys_platform == 'win32'
+moto
+fds.ce.attic_wrapper
+lxml

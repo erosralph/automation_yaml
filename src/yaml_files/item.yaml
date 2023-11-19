@@ -1,0 +1,660 @@
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: DATE
+entity: Insurance_valuation_shares_subsidiary_section_1
+exposeUi: False
+id: date
+name: DATE
+order: 1
+query:
+  queryType: DATE
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: DATE
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exposeUi: False
+id: cusip
+name: CUSIP
+order: 2
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: CUSIP
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exposeUi: False
+id: insurance_entity_id
+name: Factset Entity ID
+order: 3
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Factset Entity ID
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exposeUi: False
+id: issue_description
+name: Issue Description
+order: 4
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Issue Description
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exposeUi: False
+id: foreign
+name: Foreign
+order: 5
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Foreign
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exposeUi: False
+id: naic_valuation_method
+name: Naic Valuation Method
+order: 6
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Naic Valuation Method
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exposeUi: False
+id: issuer_entity_id
+name: Issuer Entity ID
+order: 7
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Issuer Entity ID
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exposeUi: False
+id: category_name
+name: Category Name
+order: 8
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Category Name
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: INTEGER
+entity: Insurance_valuation_shares_subsidiary_section_1
+exposeUi: False
+id: section
+name: Section
+order: 9
+query:
+  queryType: INTEGER
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Section
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: INTEGER
+entity: Insurance_valuation_shares_subsidiary_section_1
+exposeUi: False
+id: line
+name: Line
+order: 10
+query:
+  queryType: INTEGER
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Line
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exposeUi: False
+id: has_intangeble_assets
+name: Has Intangeble Assets
+order: 11
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Do insurer's assets include intangible assets connected with holding of such company's stock? (Y/N)
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S1_BACV
+name: Book / adjusted carrying value
+order: 12
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Book / adjusted carrying value
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S1_NONADMIT
+name: Nonadmitted amount
+order: 13
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Nonadmitted amount
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S1_PYBACV
+name: Prior year book/adjusted carry val
+order: 14
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Prior year book/adjusted carry val
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S1_PYNA
+name: Prior year nonadmitted amount
+order: 15
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Prior year nonadmitted amount
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S1_PYSVA
+name: Prior year sub-2 verified value
+order: 16
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Prior year sub-2 verified value
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S1_PYVFN
+name: Prior year vision filing number
+order: 17
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Prior year vision filing number
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S1_PCT_OUT
+name: Stock of such co owned by insurer on statement date % of outstanding
+order: 18
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Stock of such co owned by insurer on statement date % of outstanding
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S1_NUM_SHS
+name: Stock of such company owned by insurer on stmt date number of shares
+order: 19
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Stock of such company owned by insurer on stmt date number of shares
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S1_GOODWILL
+name: Total amount of goodwill included in book/adjusted carrying value
+order: 20
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Total amount of goodwill included in book/adjusted carrying value
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 1
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_1
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S1_INTASSETS
+name: Total amount of such intangible assets
+order: 21
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Total amount of such intangible assets
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: DATE
+entity: Insurance_valuation_shares_subsidiary_section_2
+exposeUi: False
+id: date
+name: DATE
+order: 22
+query:
+  queryType: DATE
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: DATE
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_2
+exposeUi: False
+id: cusip
+name: CUSIP
+order: 23
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: CUSIP
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_2
+exposeUi: False
+id: insurance_entity_id
+name: Factset Entity ID
+order: 24
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Factset Entity ID
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_2
+exposeUi: False
+id: lower_tier_company_name
+name: Lower Tier Company Name
+order: 25
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Lower Tier Company Name
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_2
+exposeUi: False
+id: managing_section_1_company
+name: Managing Section 1 Company
+order: 26
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Managing Section 1 Company
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: INTEGER
+entity: Insurance_valuation_shares_subsidiary_section_2
+exposeUi: False
+id: section
+name: Section
+order: 27
+query:
+  queryType: INTEGER
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Section
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: INTEGER
+entity: Insurance_valuation_shares_subsidiary_section_2
+exposeUi: False
+id: line
+name: Line
+order: 28
+query:
+  queryType: INTEGER
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Line
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_2
+exposeUi: False
+id: issuer_entity_id
+name: Issuer Entity ID
+order: 29
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Issuer Entity ID
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: TEXT
+entity: Insurance_valuation_shares_subsidiary_section_2
+exposeUi: False
+id: category_name
+name: Category Name
+order: 30
+query:
+  queryType: TEXT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Category Name
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_2
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S2_PCT_OUT
+name: "Stock in lwr-tier co owned indirectly by insurer on statement date: % of outstanding"
+order: 31
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: "Stock in lwr-tier co owned indirectly by insurer on statement date: % of outstanding"
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_2
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S2_NUM_SHS
+name: "Stock in lwr-tier co owned indirectly by insurer on statement date: nmbr shares"
+order: 32
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: "Stock in lwr-tier co owned indirectly by insurer on statement date: nmbr shares"
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_2
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S2_BACV
+name: Total amount of goodwill included in amt shown in col 8, sec 1
+order: 33
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Total amount of goodwill included in amt shown in col 8, sec 1
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD
+---
+category: Valuation Shares Subsidiary Section 2
+dataType: FLOAT
+entity: Insurance_valuation_shares_subsidiary_section_2
+exchangeRateType: PERIOD_END
+exposeUi: False
+id: FINS_D_VAL_S2_IBACV
+name: Total amount of intangible assets included in amt shown in col 8, sec 1
+order: 34
+query:
+  queryType: FLOAT
+result:
+  multiple: False
+  sortable: True
+scaling: 1000.0
+shortDescription: Total amount of intangible assets included in amt shown in col 8, sec 1
+type:
+  name: item
+  parent: group.statutory_investment_schedules
+unitLabel: USD

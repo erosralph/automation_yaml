@@ -1,0 +1,49 @@
+---
+entity: tab
+name: Canadian Banks Criteria
+id: canadian_banks_key_criteria
+order: 1
+type:
+  name: tab
+---
+entity: tab
+name: Income Statement
+id: income_statement
+order: 2
+type:
+  name: tab
+---
+entity: tab
+name: Balance Sheet
+id: balance_sheet
+order: 3
+type:
+  name: tab
+---
+entity: tab
+name: Loans and Deposits
+id: loans_deposits
+order: 4
+type:
+  name: tab
+---
+entity: tab
+name: Asset Quality
+id: asset_quality
+order: 5
+type:
+  name: tab
+---
+entity: tab
+name: Regulatory Capital
+id: regulatory_capital
+order: 6
+type:
+  name: tab
+---
+entity: tab
+name: Supplemental
+id: supplemental
+order: 7
+type:
+  name: tab

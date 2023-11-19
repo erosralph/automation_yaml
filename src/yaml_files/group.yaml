@@ -1,0 +1,55 @@
+---
+name: Key Criteria
+id: key_criteria
+order: 1
+type:
+  name: group
+  parent: tab.canadian_banks_key_criteria
+---
+entity: group
+name: Regulatory
+id: regulatory_income
+order: 2
+type:
+  name: group
+  parent: tab.income_statement
+---
+entity: group
+name: Regulatory
+id: regulatory_balance_sheet
+order: 3
+type:
+  name: group
+  parent: tab.balance_sheet
+---
+entity: group
+name: Regulatory
+id: regulatory_loans_deposits
+order: 4
+type:
+  name: group
+  parent: tab.loans_deposits
+---
+entity: group
+name: Regulatory
+id: regulatory_asset_quality
+order: 5
+type:
+  name: group
+  parent: tab.asset_quality
+---
+entity: group
+name: Regulatory
+id: regulatory_capital
+order: 6
+type:
+  name: group
+  parent: tab.regulatory_capital
+---
+entity: group
+name: Regulatory
+id: regulatory_supplemental
+order: 7
+type:
+  name: group
+  parent: tab.supplemental

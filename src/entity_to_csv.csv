@@ -1,0 +1,19 @@
+﻿key,value,type,parent
+entity,Canadian_regulatory_bank,s,
+keyField,company_entity_id,s,
+displayTable,dev_sandbox.ds_banking_canreg.entities,s,
+filterTable,dev_sandbox.ds_banking_canreg.entities,s,
+caccess,02CRB,s,
+statFields,,dict,
+id,entity_id,s,statFields
+label,Number of Companies,s,statFields
+type,INTEGER,s,statFields
+periodTypes,,,
+name,Annual,s,periodTypes
+value,A,s,periodTypes
+name,Quarterly,s,periodTypes
+value,Q,s,periodTypes
+name,Last Twelve Months Stubbed,s,periodTypes
+value,LTM_ST,s,periodTypes
+name,Year to Date Quarterly,s,periodTypes
+value,YTD_Q,s,periodTypes

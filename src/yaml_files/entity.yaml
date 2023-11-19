@@ -1,0 +1,18 @@
+entity: Canadian_regulatory_bank
+keyField: company_entity_id
+displayTable: dev_sandbox.ds_banking_canreg.entities
+filterTable: dev_sandbox.ds_banking_canreg.entities
+caccess: 02CRB
+statFields:
+  - id: entity_id
+    label: Number of Companies
+    type: INTEGER
+periodTypes:
+  - name: Annual
+    value: A
+  - name: Quarterly
+    value: Q
+  - name: Last Twelve Months Stubbed
+    value: LTM_ST
+  - name: Year to Date Quarterly
+    value: YTD_Q

@@ -1,0 +1,8 @@
+﻿entity,name,id,order,type,  name,  parent
+group,Key Criteria,key_criteria,1,,group,tab.canadian_banks_key_criteria
+group,Regulatory,regulatory_income,2,,group,tab.income_statement
+group,Regulatory,regulatory_balance_sheet,3,,group,tab.balance_sheet
+group,Regulatory,regulatory_loans_deposits,4,,group,tab.loans_deposits
+group,Regulatory,regulatory_asset_quality,5,,group,tab.asset_quality
+group,Regulatory,regulatory_capital,6,,group,tab.regulatory_capital
+group,Regulatory,regulatory_supplemental,7,,group,tab.supplemental

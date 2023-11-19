@@ -1,0 +1,8 @@
+﻿entity,name,id,order,type,  name
+tab,Canadian Banks Criteria,canadian_banks_key_criteria,1,,tab
+tab,Income Statement,income_statement,2,,tab
+tab,Balance Sheet,balance_sheet,3,,tab
+tab,Loans and Deposits,loans_deposits,4,,tab
+tab,Asset Quality,asset_quality,5,,tab
+tab,Regulatory Capital,regulatory_capital,6,,tab
+tab,Supplemental,supplemental,7,,tab
